@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>o
+    <h1>Who is the best Lord?</h1>
+    <p><em>Okay; if you've just joined us, we're talking about who is the best Lord?</em></p>
+    <div>
+        <input type="radio" id="lotr" name="bestLord" value="lotr">
+        <label for="lotr">Lord of the Rings</label>
+      <input type="radio" id="lotd" name="bestLord" value="lotd">
+        <label for="lotd">Lord of the Dance</label>
+        <input type="radio" id="lotf" name="bestLord" value="lotf">
+        <label for="lotf">Lord of the Flies</label>
+    </div>
+    <br>
+    <div>
+        <form id="survey-form">
+            <label for="name" id="name-label">NAME:</label>
+            <input placeholder="name" id="name" required>
+            <label for="email" id="email-label">EMAIL:
+            <input placeholder="email" id="email" type="email" required>
+            <input type="submit" id="submit">
+    </div>
+    <br>
+    <img src="ap.jpg" alt="Aha!" width="500">
+    <footer>Peartree Productions © 1997</footer>
+</body>
+</html>

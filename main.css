@@ -1,0 +1,254 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background: rgb(56, 59, 57);
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: lightcoral;
+    padding: 20px;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* end of Headers */
+/* Section 1 Begins */
+.feature3{
+    background: snow;
+    padding: 20px;
+}
+
+/* Section 2 Begins */
+/* Sub-section 1 */
+.feature1{
+    background: snow;
+    padding: 50px;
+    display: flex;
+   
+}
+.feature1 >*{
+    width: 400px; 
+}
+.image1{
+    background: rgb(68, 195, 245);
+    position: relative;
+    /* width: 400px;  */
+    /* margin: auto; */
+}
+.image__img{
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.45s;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
+.image__overlay:hover > *{
+    transform: translateY(0);
+
+}
+.image__title{
+    font-size: 1.5pc;
+    font-weight: bold;
+}
+.image__description{
+    font-size: 1.5pm;
+    margin-top: 0.25pm;
+
+}
+
+/* Subsection 2 */
+.image2{
+    background: rgb(68, 195, 245);
+    position: relative;
+    /* width: 200px;  */
+    /* margin: auto; */
+}
+.image__img2{
+    display: block;
+    width: 100%;
+    height: 90%;
+    
+}
+.image__overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.image__overlay2 > * {
+    transform: translateY(20px);
+    transition: transform 0.45s;
+}
+.image__overlay2:hover{
+    opacity: 1;
+}
+.image__overlay2:hover > *{
+    transform: translateY(0);
+
+}
+.image__title2{
+    font-size: 1.5pc;
+    font-weight: bold;
+}
+.image__description2{
+    font-size: 1.5pm;
+    margin-top: 0.25pm;
+
+}
+/* Subsection 3 begins */
+.image3{
+    background: rgb(68, 195, 245);
+    position: relative;
+    /* width: 200px;  */
+    /* margin: auto; */
+}
+.image__img3{
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+.image__overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.image__overlay3 > * {
+    transform: translateY(20px);
+    transition: transform 0.45s;
+}
+.image__overlay3:hover{
+    opacity: 1;
+}
+.image__overlay3:hover > *{
+    transform: translateY(0);
+
+}
+.image__title3{
+    font-size: 1.5pc;
+    font-weight: bold;
+}
+.image__description3{
+    font-size: 1.5pm;
+    margin-top: 0.25pm;
+
+}
+/* Subsection 4 Begins*/
+.image4{
+    background: rgb(68, 195, 245);
+    position: relative;
+    /* width: 200px;  */
+    /* margin: auto; */
+}
+.image__img4{
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+.image__overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.image__overlay4 > * {
+    transform: translateY(20px);
+    transition: transform 0.45s;
+}
+.image__overlay4:hover{
+    opacity: 1;
+}
+.image__overlay4:hover > *{
+    transform: translateY(0);
+
+}
+.image__title4{
+    font-size: 1.5pc;
+    font-weight: bold;
+}
+.image__description4{
+    font-size: 1.5pm;
+    margin-top: 0.25pm;
+
+}
+
+/* Section 3 Begins */
+.feature2{
+    background: snow;
+    padding: 35px;
+    display: flex;
+}
+
+footer{
+    background: rgb(156, 143, 150);
+    padding: 5px;
+}
+
+
+
+
+/* Assignment practice css */

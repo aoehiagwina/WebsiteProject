@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background: rgb(64, 64, 105);
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: rgb(18, 18, 61);
+    padding: 15px;
+}
+.about__section{
+    background: oldlace;
+    padding: 40px;
+}
+.setIn{
+    position: relative;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    /* margin-right: 40px; */
+    
+
+}
+.about__title{
+    font-size: 2.5pc;
+    font-weight: bold;
+}
+.about__description{
+    font-size: 1.5pc;
+    margin-right: 30px;
+}
+.myImage{
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+
+
+
+
+.butins{
+    border: peru;
+    width: 400;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:space-evenly;
+     
+}
+
+button{
+   
+    background-color: rgb(30, 30, 73);
+    color: mistyrose;
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+}
